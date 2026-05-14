@@ -1,3 +1,5 @@
+package Task_1;
+
 public class NotificationService {
     public void notifyAcceptance(){
         System.out.println("NOTIFICATION: SUBMISSION FULLY ACCEPTED!");

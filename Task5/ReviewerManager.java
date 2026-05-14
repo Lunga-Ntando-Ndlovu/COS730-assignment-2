@@ -1,3 +1,5 @@
+package Task5;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -31,7 +33,7 @@ public class ReviewerManager {
         return reviewerList;
     }
 
-    // ReviewerManager owns the assignment loop — SubmissionController no longer iterates
+    // ReviewerManager owns the assignment loop - SubmissionController no longer iterates
     public boolean assignAllReviews(ArrayList<Reviewer> filteredReviewers) {
         if (filteredReviewers.isEmpty()) return false;
         System.out.println("--------- ASSIGNING REVIEWERS ----------");

@@ -1,3 +1,5 @@
+package Task5;
+
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -29,7 +31,7 @@ public class Database {
         return "\n-------------------------------|SUBMISSION SAVED SUCCESSFULLY|------------------------------\n";
     }
 
-    // Batch save — single call instead of one per score
+    // Batch save - single call instead of one per score
     public void saveScores(ArrayList<Integer> scores) {
         scoreList.addAll(scores);
         System.out.println("[DB]: Batch saved " + scores.size() + " score(s) successfully.");

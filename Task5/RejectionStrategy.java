@@ -1,3 +1,5 @@
+package Task5;
+
 public class RejectionStrategy implements DecisionStrategy {
     @Override
     public void execute() {

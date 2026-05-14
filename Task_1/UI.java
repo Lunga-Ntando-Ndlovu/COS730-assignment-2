@@ -1,3 +1,5 @@
+package Task_1;
+
 public class UI{
     public void submitResearchOutput(String data){
         SubmissionController submissionController = new SubmissionController();

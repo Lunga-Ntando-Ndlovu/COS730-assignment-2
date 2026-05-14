@@ -1,3 +1,5 @@
+package Task5;
+
 import java.util.Random;
 
 public class Reviewer {

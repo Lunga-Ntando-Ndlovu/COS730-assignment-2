@@ -1,3 +1,5 @@
+package Task_1;
+
 public class Validator {
     public String validateFormat(String data){
         if(data.equals("LegitResearchData")){
